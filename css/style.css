@@ -1,0 +1,79 @@
+body {
+    font-family:lato, sans-serif;
+    background-image: url("../pics/web-black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    margin: 0;
+    position: relative;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.scroll_div {
+    width: 800px;
+    margin: auto;
+    padding-left: 600px;
+}
+
+.home {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about_me {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #d3b924;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 21px;
+    /*
+    padding-right: 195.8px;
+    padding-left: 195.8px;
+     */
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.navbar span {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 14px;
+    display: block;
+    padding-right: 180px;
+    padding-left: 35px;
+    font-weight: bold;
+
+}
+.navbar a:hover {
+    background-color: #a6900c;
+}
+
+.navbar li {
+    float: left;
+}
